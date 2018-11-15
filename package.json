@@ -1,0 +1,25 @@
+{
+  "name": "@fintechstudios/wait-for-docker-health",
+  "version": "1.0.0",
+  "description": "Wait for Docker HEALTHCHECKs to pass",
+  "main": "index.js",
+  "bin": {
+    "wait-for-docker-health": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fintechstudios/wait-for-docker-health.git"
+  },
+  "engines": {
+    "node": ">=6.14"
+  },
+  "author": "Dylan Praul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fintechstudios/wait-for-docker-health/issues"
+  },
+  "homepage": "https://github.com/fintechstudios/wait-for-docker-health#readme"
+}
