@@ -1,7 +1,5 @@
-# wait-for-docker-health
-Wait for Docker HEALTHCHECKs to pass
-
-Requires the Docker CLI.
+# @fintechstudios/wait-for-docker-health
+Node utility to wait for Docker HEALTHCHECKs to pass. Requires the Docker CLI.
 
 ## Usage
 ### CLI
@@ -19,7 +17,7 @@ Docker container = my-container is healthy (took 0.166s)
 #### `waitForDockerHealth({ <container>, [maxRetries=100], [msBetweenRetries=2000] })`
 
 ```js
-const waitForDockerHealth = require('@fintechstudios/wait-for-elasticsearch');
+const waitForDockerHealth = require('@fintechstudios/wait-for-docker-health');
 
 async main() {
   await waitForDockerHealth({ container: 'my-container' });
